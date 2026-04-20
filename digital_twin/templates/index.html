@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Twin</title>
+    <link rel="stylesheet" href="/static/style/style.css">
+</head>
+<body>
+    <div class="chat">
+        <h2>My Digital Twin</h2>
+
+        <div id="chatBox"></div>
+
+        <div class="input-row">
+            <input id="message" placeholder="Type a message..." onkeypress="if(event.key==='Enter'){sendMessage()}">
+            <button onclick="sendMessage()">Send</button>
+            <button onclick="startVoice()">🎤</button>
+        </div>
+    </div>
+
+    <script src="/static/script/script.js"></script>
+</body>
+</html>
